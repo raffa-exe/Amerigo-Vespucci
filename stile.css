@@ -101,6 +101,8 @@ header .logo img{
 header nav{
     float: right;
     height: 100%;
+    margin-top: -75px;
+    margin-right: 150px;
 }
 
 header nav li{
