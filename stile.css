@@ -55,6 +55,33 @@ p#motto{
     font-size: 9px;
 }
 
+span#verde{
+    width: 500px;
+    height: 8px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #009246;
+}
+
+span#bianco{
+    width: 500px;
+    height: 8px;
+    left: 500px;
+    top: 0px;
+    position: absolute;
+    background: #FFFFFF;
+}
+
+span#rosso{
+    width: 490px;
+    height: 8px;
+    left: 1000px;
+    top: 0px;
+    position: absolute;
+    background: #CE2B37
+}
+
 .Immagini { 
 padding-left: 160px;
 padding-top: 50px;
