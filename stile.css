@@ -14,7 +14,7 @@ header{
 
 #marchio{
     margin-top: 60px;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 
 .Testo { 
@@ -44,13 +44,13 @@ h1#nome{
     font-weight: 700;
     line-height: 30px;
     word-wrap: break-word;
-    margin-left: 187px;
+    margin-left: 107px;
     margin-top: -50px;
 }
 
 p#motto{
     color: #FFFFFF;
-    margin-left: 187px;
+    margin-left: 107px;
     margin-top: -8px;
     font-size: 9px;
 }
