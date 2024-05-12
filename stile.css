@@ -246,6 +246,44 @@ footer span.nero{
     background: #1E1E1E;
 }
 
+span.bianco span, span.bianco2 span{
+    position: absolute;
+    background: #1E1E1E;
+    border-radius: 9999px;
+    width: 10px;
+    height: 10px;
+}
+
+span.bianco span.primo, span.bianco2 span.primo{
+    top: 2px;
+    left: 161px;
+}
+
+span.bianco span.secondo, span.bianco2 span.secondo{
+    top: 2px;
+    left: 181px;
+}
+
+span.bianco span.terzo, span.bianco2 span.terzo{
+    top: 2px;
+    left: 201px;
+}
+
+span.bianco span.quarto, span.bianco2 span.quarto{
+    top: 2px;
+    left: 1231px;
+}
+
+span.bianco span.quinto, span.bianco2 span.quinto{
+    top: 2px;
+    left: 1251px;
+}
+
+span.bianco span.sesto, span.bianco2 span.sesto{
+    top: 2px;
+    left: 1271px;
+}
+
 section#hero span{
     position: absolute;
     width: 100%;
