@@ -123,6 +123,14 @@ section#main_home p{
     max-width: 900px;
 }
 
+/*section#main_hoome div#localnav_home{
+    width: 100%;
+    height: 100%;
+    position: relative
+}*/
+
+
+
 section#hero span{
     position: absolute;
     width: 100%;
