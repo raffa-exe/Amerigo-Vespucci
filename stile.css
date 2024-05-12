@@ -38,7 +38,7 @@ padding-top: 50px;
     letter-spacing: -0.176px;
 }
 
-h1#nome{
+header h1#nome{
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 700;
@@ -48,11 +48,28 @@ h1#nome{
     margin-top: -50px;
 }
 
-p#motto{
+footer h1#nome{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    word-wrap: break-word;
+    margin-left: 107px;
+    margin-top: 20px;
+}
+
+header p#motto{
     color: #FFFFFF;
     margin-left: 107px;
     margin-top: -8px;
     font-size: 9px;
+}
+
+footer p#motto{
+    color: #FFFFFF;
+    margin-left: 107px;
+    margin-top: 0.5px;
+    font-size: 16px;
 }
 
 span#verde{
@@ -189,7 +206,8 @@ section#main_home div#localnav_home div#viaggi{
 footer{
     width: 100%;
     height: 100%;
-    position: relative
+    position: relative;
+    color: #FFFFFF;
 }
 
 footer span#ultimo{
@@ -282,6 +300,36 @@ span.bianco span.quinto, span.bianco2 span.quinto{
 span.bianco span.sesto, span.bianco2 span.sesto{
     top: 2px;
     left: 1271px;
+}
+
+footer a{
+    position: absolute;
+    font-size: 15px;
+}
+
+footer a img{
+    width: 15px;
+    height: 15px;
+}
+
+footer a.chisiamo{
+    text-align: center;
+    top: 30px;
+    left: 700px;
+    color:#FFFFFF;
+}
+
+footer a.info{
+    text-align: center;
+    top: 60px;
+    left: 700px;
+    color: #FFFFFF;
+}
+
+footer span#ultimo p.credits{
+    width: 345px;
+    margin-left: 1000px;
+    margin-top: -60px;
 }
 
 section#hero span{
