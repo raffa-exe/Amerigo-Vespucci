@@ -320,6 +320,10 @@ footer a.info{
     color: #FFFFFF;
 }
 
+a.Consulta{
+    color:#1E1E1E;
+}
+
 footer span#ultimo p.credits{
     width: 350px;
     margin-left: 1000px;
