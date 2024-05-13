@@ -166,6 +166,7 @@ section#main_home span h2{
     position: absolute;
     text-align: center;
     color: #FFFFFF;
+    font-family: "Inria Serif";
     font-size: 24px;
     font-weight: 700;
     text-decoration: underline;
@@ -173,28 +174,9 @@ section#main_home span h2{
     word-wrap: break-word;
 }
 
-section#main_home div#localnav_home div#struttura{
-    width: 430px;
-    height: 430px;
-    top: 0px;
-    position: absolute;
-    left: 640px;
-}
-
-section#main_home div#localnav_home div#storia{
-    width: 430px;
-    height: 430px;
-    top: 450px;
-    position: absolute;
-    left: 161px;
-}
-
-section#main_home div#localnav_home div#viaggi{
-    width: 430px;
-    height: 430px;
-    top: 450px;
-    position: absolute;
-    left: 640px;
+section#strutturahome p{
+    margin-left: 160px;
+    max-width: 900px;
 }
 
 section#strutturahome div#localnav_struttura{
@@ -270,7 +252,7 @@ section#strutturahome div#localnav_struttura div#cucina{
 
 div#navigazione span, div#scafo span, div#imbarcazioni span, div#equipaggio span, div#timoni span, div#comandanti span, div#etecnologia span, div#cucina span {
     width: 430px;
-    height: 130px;
+    height: 120px;
     left: 0px;
     top: 280px;
     position: absolute;
@@ -278,18 +260,20 @@ div#navigazione span, div#scafo span, div#imbarcazioni span, div#equipaggio span
 }
 
 section#strutturahome span h2{
-    width: 387.43px;
-    height: 81.74px;
+    width: 430px;
+    height: 130px;
     left: 21px;
     top: 35px;
     position: absolute;
     text-align: center;
     color: #FFFFFF;
-    font-size: 24px;
-    font-weight: 700;
+    font-family: "Inria Serif";
+    font-size: 32px;
+    font-weight: 500;
     text-decoration: underline;
-    line-height: 36px;
+    line-height: 150%;
     word-wrap: break-word;
+    color: #FFF;
 }
 
 footer{
