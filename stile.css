@@ -85,7 +85,7 @@ span#bianco{
 }
 
 span#rosso{
-    width: 490px;
+    width: 500px;
     height: 8px;
     left: 1000px;
     top: 0px;
@@ -166,6 +166,7 @@ section#main_home span h2{
     position: absolute;
     text-align: center;
     color: #FFFFFF;
+    font-family: "Inria Serif";
     font-size: 24px;
     font-weight: 700;
     text-decoration: underline;
@@ -173,159 +174,113 @@ section#main_home span h2{
     word-wrap: break-word;
 }
 
-section#main_home div#localnav_home div#struttura{
+section#strutturahome p{
+    margin-left: 160px;
+    max-width: 900px;
+}
+
+section#strutturahome div#localnav_struttura{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 70px;
+}
+
+section#strutturahome div#localnav_struttura div#navigazione{
+    max-width: 430px;
+    max-height: 430px;
+    top: 0px;
+    position: absolute;
+    left: 160px;
+}
+
+section#strutturahome div#localnav_struttura div#scafo{
     width: 430px;
     height: 430px;
     top: 0px;
     position: absolute;
-    left: 640px;
+    left: 620px;
 }
 
-section#main_home div#localnav_home div#storia{
+section#strutturahome div#localnav_struttura div#imbarcazioni{
     width: 430px;
     height: 430px;
     top: 450px;
     position: absolute;
-    left: 161px;
+    left: 160px;
 }
 
-section#main_home div#localnav_home div#viaggi{
+section#strutturahome div#localnav_struttura div#equipaggio{
     width: 430px;
     height: 430px;
     top: 450px;
     position: absolute;
-    left: 640px;
+    left: 620px;
 }
 
-footer{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    color: #FFFFFF;
+section#strutturahome div#localnav_struttura div#timoni{
+    width: 430px;
+    height: 430px;
+    top: 900px;
+    position: absolute;
+    left: 160px;
 }
 
-footer span#ultimo{
-    width: 100%;
-    height: 105px;
+section#strutturahome div#localnav_struttura div#comandanti{
+    width: 430px;
+    height: 430px;
+    top: 900px;
+    position: absolute;
+    left: 620px;
+}
+
+section#strutturahome div#localnav_struttura div#tecnologia{
+    width: 430px;
+    height: 430px;
+    top: 1350px;
+    position: absolute;
+    left: 160px;
+}
+
+section#strutturahome div#localnav_struttura div#cucina{
+    width: 430px;
+    height: 430px;
+    top: 1350px;
+    position: absolute;
+    left: 620px;
+}
+
+div#navigazione span, div#scafo span, div#imbarcazioni span, div#equipaggio span, div#timoni span, div#comandanti span, div#tecnologia span, div#cucina span {
+    width: 430px;
+    height: 120px;
     left: 0px;
-    top: 800px;
+    top: 280px;
     position: absolute;
-    background: #1E1E1E;
+    background: rgba(0, 0, 0, 0.75);
 }
 
-footer span#marrone{
-    width: 100%;
-    height: 15px;
+section#strutturahome span h2{
+    width: 430px;
+    height: 130px;
     left: 0px;
-    top: 725px;
+    top: 35px;
     position: absolute;
-    background: #DBA466;
-}
-
-footer span.bianco2{
-    width: 100%;
-    height: 15px;
-    left: 0px;
-    top: 785px;
-    position: absolute;
-    background: #FFFFFF;
-}
-
-footer span.bianco{
-    width: 100%;
-    height: 15px;
-    left: 0px;
-    top: 755px;
-    position: absolute;
-    background: #FFFFFF;
-}
-
-footer span.nero2{
-    width: 100%;
-    height: 15px;
-    left: 0px;
-    top: 770px;
-    position: absolute;
-    background: #1E1E1E;
-}
-
-footer span.nero{
-    width: 100%;
-    height: 15px;
-    left: 0px;
-    top: 740px;
-    position: absolute;
-    background: #1E1E1E;
-}
-
-span.bianco span, span.bianco2 span{
-    position: absolute;
-    background: #1E1E1E;
-    border-radius: 9999px;
-    width: 10px;
-    height: 10px;
-}
-
-span.bianco span.primo, span.bianco2 span.primo{
-    top: 2px;
-    left: 161px;
-}
-
-span.bianco span.secondo, span.bianco2 span.secondo{
-    top: 2px;
-    left: 181px;
-}
-
-span.bianco span.terzo, span.bianco2 span.terzo{
-    top: 2px;
-    left: 201px;
-}
-
-span.bianco span.quarto, span.bianco2 span.quarto{
-    top: 2px;
-    left: 1231px;
-}
-
-span.bianco span.quinto, span.bianco2 span.quinto{
-    top: 2px;
-    left: 1251px;
-}
-
-span.bianco span.sesto, span.bianco2 span.sesto{
-    top: 2px;
-    left: 1271px;
-}
-
-footer li span.noncorrente {
-    position: absolute;
-    font-size: 15px;
-}
-
-footer a img{
-    width: 15px;
-    height: 15px;
-}
-
-footer a.chisiamo{
     text-align: center;
-    top: 30px;
-    left: 700px;
-    color:#FFFFFF;
-}
-
-footer a.info{
-    text-align: center;
-    top: 60px;
-    left: 700px;
     color: #FFFFFF;
+    font-family: "Inria Serif";
+    font-size: 32px;
+    font-weight: 500;
+    text-decoration: underline;
+    line-height: 150%;
+    word-wrap: break-word;
+    color: #FFF;
 }
 
-footer span#ultimo p.credits{
-    width: 350px;
-    margin-left: 1000px;
-    margin-top: -50px;
-    text-align: right;
+
+a.Consulta{
+    color:#1E1E1E;
 }
+
 
 section#hero span{
     position: absolute;
@@ -341,6 +296,7 @@ section#hero span{
 .Immagini { 
     padding-left: 160px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }  
 
 *{
@@ -417,8 +373,93 @@ header li span a:hover{
     text-decoration: underline;
 }
 
-@media (max-width: 430px){
-    nav{
-        display: none;
+
+@media only screen and (min-width: 0px) {
+    #cs-footer-269 {
+        padding-top: 40px;
+        padding-bottom: 30px;
+        background-color: #1E1E1E;
+      
+    }
+    #cs-footer-269 .cs-container {
+        width: 100%;
+        max-width: 1195px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        column-gap: clamp(68px, calc(10%), 100px);
+    }
+    #cs-footer-269 .cs-credits {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+        color: #FFFFFF;
+    }
+ 
+    #cs-footer-269 .cs-text {
+        font-size: clamp(16px, 2.5vw, 16px);
+        line-height: 24px;
+        margin: 0;
+        margin-bottom: 32px;
+        max-width: 525px;
+        color: #FFFFFF;
+
+    }
+    #cs-footer-269 .cs-nav {
+        padding: 0;
+        margin: 0;
+    }
+  
+    #cs-footer-269 .cs-header {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        margin-bottom: 14px;
+        color:#FFFFFF;
+        position: relative;
+        display: block;
+    }
+
+    #cs-footer-269 .cs-contact {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+        color: #FFFFFF;
+    }
+
+    #cs-footer-269 .cs-nav-link {
+        font-size: 16px;
+        text-decoration: none;
+        line-height: 24px;
+        text-align: left;
+        color: #FFFFFF;
+        display: inline-block;
+    }
+    #cs-footer-269 .cs-nav-link:hover {
+        text-decoration: underline;
+    }
+
+    #cs-footer-269 .cs-contact-link {
+        font-size: 16px;
+        text-decoration: none;
+        line-height: 24px;
+        text-align: left;
+        color: #FFFFFF;
+        display: inline-block;
+    }
+    #cs-footer-269 .cs-contact-link:hover {
+        text-decoration: underline;
+    }
+    #cs-footer-269 .cs-address {
+        font-size: 16px;
+        margin-bottom: 20px;
     }
 }
