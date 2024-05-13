@@ -276,139 +276,11 @@ section#strutturahome span h2{
     color: #FFF;
 }
 
-footer{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    color: #FFFFFF;
-}
-
-footer span#ultimo{
-    width: 100%;
-    height: 105px;
-    left: 0px;
-    top: 800px;
-    position: absolute;
-    background: #1E1E1E;
-}
-
-footer span#marrone{
-    width: 100%;
-    height: 15px;
-    left: 0px;
-    top: 725px;
-    position: absolute;
-    background: #DBA466;
-}
-
-footer span.bianco2{
-    width: 100%;
-    height: 15px;
-    left: 0px;
-    top: 785px;
-    position: absolute;
-    background: #FFFFFF;
-}
-
-footer span.bianco{
-    width: 100%;
-    height: 15px;
-    left: 0px;
-    top: 755px;
-    position: absolute;
-    background: #FFFFFF;
-}
-
-footer span.nero2{
-    width: 100%;
-    height: 15px;
-    left: 0px;
-    top: 770px;
-    position: absolute;
-    background: #1E1E1E;
-}
-
-footer span.nero{
-    width: 100%;
-    height: 15px;
-    left: 0px;
-    top: 740px;
-    position: absolute;
-    background: #1E1E1E;
-}
-
-span.bianco span, span.bianco2 span{
-    position: absolute;
-    background: #1E1E1E;
-    border-radius: 9999px;
-    width: 10px;
-    height: 10px;
-}
-
-span.bianco span.primo, span.bianco2 span.primo{
-    top: 2px;
-    left: 161px;
-}
-
-span.bianco span.secondo, span.bianco2 span.secondo{
-    top: 2px;
-    left: 181px;
-}
-
-span.bianco span.terzo, span.bianco2 span.terzo{
-    top: 2px;
-    left: 201px;
-}
-
-span.bianco span.quarto, span.bianco2 span.quarto{
-    top: 2px;
-    left: 1231px;
-}
-
-span.bianco span.quinto, span.bianco2 span.quinto{
-    top: 2px;
-    left: 1251px;
-}
-
-span.bianco span.sesto, span.bianco2 span.sesto{
-    top: 2px;
-    left: 1271px;
-}
-
-footer li span.noncorrente {
-    position: absolute;
-    font-size: 15px;
-}
-
-footer a img{
-    width: 15px;
-    height: 15px;
-}
-
-footer a.chisiamo{
-    text-align: center;
-    top: 30px;
-    left: 700px;
-    color:#FFFFFF;
-}
-
-footer a.info{
-    text-align: center;
-    top: 60px;
-    left: 700px;
-    color: #FFFFFF;
-}
 
 a.Consulta{
     color:#1E1E1E;
 }
 
-footer span#ultimo p.credits{
-    width: 350px;
-    margin-left: 1000px;
-    margin-top: -50px;
-    text-align: right;
-}
 
 section#hero span{
     position: absolute;
@@ -424,6 +296,7 @@ section#hero span{
 .Immagini { 
     padding-left: 160px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }  
 
 *{
@@ -500,8 +373,93 @@ header li span a:hover{
     text-decoration: underline;
 }
 
-@media (max-width: 430px){
-    nav{
-        display: none;
+
+@media only screen and (min-width: 0px) {
+    #cs-footer-269 {
+        padding-top: 40px;
+        padding-bottom: 30px;
+        background-color: #1E1E1E;
+      
+    }
+    #cs-footer-269 .cs-container {
+        width: 100%;
+        max-width: 1195px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        column-gap: clamp(68px, calc(10%), 100px);
+    }
+    #cs-footer-269 .cs-credits {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+        color: #FFFFFF;
+    }
+ 
+    #cs-footer-269 .cs-text {
+        font-size: clamp(16px, 2.5vw, 16px);
+        line-height: 24px;
+        margin: 0;
+        margin-bottom: 32px;
+        max-width: 525px;
+        color: #FFFFFF;
+
+    }
+    #cs-footer-269 .cs-nav {
+        padding: 0;
+        margin: 0;
+    }
+  
+    #cs-footer-269 .cs-header {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        margin-bottom: 14px;
+        color:#FFFFFF;
+        position: relative;
+        display: block;
+    }
+
+    #cs-footer-269 .cs-contact {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+        color: #FFFFFF;
+    }
+
+    #cs-footer-269 .cs-nav-link {
+        font-size: 16px;
+        text-decoration: none;
+        line-height: 24px;
+        text-align: left;
+        color: #FFFFFF;
+        display: inline-block;
+    }
+    #cs-footer-269 .cs-nav-link:hover {
+        text-decoration: underline;
+    }
+
+    #cs-footer-269 .cs-contact-link {
+        font-size: 16px;
+        text-decoration: none;
+        line-height: 24px;
+        text-align: left;
+        color: #FFFFFF;
+        display: inline-block;
+    }
+    #cs-footer-269 .cs-contact-link:hover {
+        text-decoration: underline;
+    }
+    #cs-footer-269 .cs-address {
+        font-size: 16px;
+        margin-bottom: 20px;
     }
 }
