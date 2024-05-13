@@ -262,7 +262,7 @@ div#navigazione span, div#scafo span, div#imbarcazioni span, div#equipaggio span
 section#strutturahome span h2{
     width: 430px;
     height: 130px;
-    left: 21px;
+    left: 0px;
     top: 35px;
     position: absolute;
     text-align: center;
