@@ -23,6 +23,27 @@ body{
     margin-left: 160px;
 }
 
+ul.a {
+list-style-type: disc;
+list-style-position: inside;
+margin: 0;
+padding: 0;
+}
+
+ul.b {
+list-style-type: none;
+list-style-position: inside;
+margin: 0;
+padding: 0;
+}
+
+ol.c {
+list-style-type: decimal;
+list-style-position: inside;
+margin: 0;
+padding: 0;
+}
+
 .h1 {
     color: #1E1E1E;
     font-size: 20px;
@@ -325,7 +346,6 @@ section#hero span{
 *{
     margin: 0;
     padding: 0;
-    list-style: none;
     text-decoration: none;
 }
 
