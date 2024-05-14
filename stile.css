@@ -425,6 +425,7 @@ header li span a:hover{
     background: #F2EEEE;
     overflow-x: hidden;
     padding: 8px 0;
+    list-style-type: none;
   }
   
   .sidebar a {
@@ -433,6 +434,7 @@ header li span a:hover{
     font-size: 16px;
     color: #1E1E1E;
     display: block;
+    list-style-type: none;
   }
   
   .sidebar a:hover {
