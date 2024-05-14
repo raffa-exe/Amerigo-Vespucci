@@ -23,6 +23,22 @@ body{
     margin-left: 160px;
 }
 
+.columnbig {
+    width: 40%;
+    padding: 0px;
+    content: "";
+    display: inline-block;
+    clear: both;
+  }
+
+  .columnsmall {
+    width: 15%;
+    padding: 0px;
+    content: "";
+    display: inline-block;
+    clear: both;
+  }
+
 ul.a {
 list-style-type: disc;
 list-style-position: inside;
