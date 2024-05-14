@@ -490,6 +490,7 @@ header li span a:hover{
     #cs-footer-269 .cs-nav {
         padding: 0;
         margin: 0;
+        list-style-type: none;
     }
   
     #cs-footer-269 .cs-header {
