@@ -23,6 +23,22 @@ body{
     margin-left: 10.9%;
 }
 
+.columnbig {
+    width: 40%;
+    padding: 0px;
+    content: "";
+    display: inline-block;
+    clear: both;
+  }
+
+  .columnsmall {
+    width: 15%;
+    padding: 0px;
+    content: "";
+    display: inline-block;
+    clear: both;
+  }
+
 ul.a {
 list-style-type: disc;
 list-style-position: inside;
@@ -233,9 +249,9 @@ section#strutturahome p{
 
 section#strutturahome div#localnav_struttura{
     width: 100%;
-    height: 100%;
+    height: 1920px;
     position: relative;
-    top: 70px;
+    top: 50px;
 }
 
 section#strutturahome div#localnav_struttura div#navigazione{
