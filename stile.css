@@ -127,8 +127,7 @@ span#verde{
 }
 
 span#bianco{
-    max-width: 500px;
-    width: 100%;
+    width: 60%;
     height: 8px;
     left: 35%;
     top: 0%;
@@ -138,8 +137,7 @@ span#bianco{
 }
 
 span#rosso{
-    max-width: 500px;
-    width: 100%;
+    width: 34%;
     height: 8px;
     left: 67%;
     top: 0px;
@@ -159,16 +157,6 @@ section#hero img{
     width: 100%;
     max-height: 100%;
     position: absolute;
-}
-
-section#hero h1{
-    position: absolute;
-    max-width: 350px;
-    line-height: 54px;
-    font-size: 36px;
-    top: 78%;
-    left: 10%;
-    right: 66%;
 }
 
 section#main_home{
@@ -742,5 +730,27 @@ nav p{
 
     .Immagini img{
         width: 100%;
+    }
+
+    div#localnav_home a span p{
+        font-size: 100%;
+    }
+
+    .Testo, .Testo_home{
+        font-size: 10px;
+    }
+
+    h1{
+        font-size: 15px;
+    }
+
+    footer a, footer p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 600px){
+    div#localnav_home a span p{
+        font-size: 60%;
     }
 }
