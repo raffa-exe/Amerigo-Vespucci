@@ -778,7 +778,6 @@ nav p{
         font-size: clamp(8px, 2.5vw, 8px);
         line-height: 24px;
         margin: 0;
-        margin-bottom: 10px;
         max-width: 525px;
         color: #FFFFFF;
     
@@ -793,7 +792,6 @@ nav p{
         font-size: 12px;
         line-height: 24px;
         font-weight: 700;
-        margin-bottom: 14px;
         color:#FFFFFF;
         position: relative;
         display: block;
@@ -811,7 +809,7 @@ nav p{
     }
     
     #cs-footer-269 .cs-nav-link {
-        font-size: 10px;
+        font-size: 8px;
         text-decoration: none;
         line-height: 30px;
         text-align: left;
@@ -824,7 +822,7 @@ nav p{
     }
     
     #cs-footer-269 .cs-contact-link {
-        font-size: 10px;
+        font-size: 8px;
         text-decoration: none;
         line-height: 24px;
         text-align: left;
