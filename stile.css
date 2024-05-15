@@ -459,8 +459,9 @@ header .logo img{
 header nav{
     float: right;
     height: 100%;
-    margin-top: -75px;
-    margin-right: 150px;
+    margin-top: -80px;
+    margin-right: 360px;
+    font-size: 18px;
 }
 
 header nav li{
@@ -484,8 +485,8 @@ header nav li span.noncorrente a{
 }
 
 header li span.corrente a{
-    background-color: #F2EEEE;
-    color: #1E1E1E;
+    text-decoration: underline;
+    color: #FFFFFF;
 }
 
 header li span a:hover{
