@@ -39,6 +39,26 @@ body{
     margin-bottom: 5%;
 }
 
+.back a {
+    display: inline-block;
+    color: #1E1E1E;
+    margin-left: 5px;
+}
+
+.back {
+padding-bottom: 10px;
+}
+
+.backstruttura a {
+    display: inline-block;
+    color: #1E1E1E;
+    margin-left: 5px;
+}
+
+.backstruttura {
+padding-bottom: 10px;
+}
+
 .noi{
     margin-bottom: 5%;
 }
@@ -373,6 +393,8 @@ section#strutturahome span h2{
 
 a.Consulta{
     color:#1E1E1E;
+    font-size: 18px;
+    text-decoration: underline;
 }
 
 a.HomeStruttura{
@@ -517,9 +539,6 @@ header li span a:hover{
         max-width: 1195px;
         margin: auto;
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-wrap: wrap;
         column-gap: clamp(68px, calc(10%), 100px);
     }
     #cs-footer-269 .cs-credits {
@@ -571,11 +590,12 @@ header li span a:hover{
     #cs-footer-269 .cs-nav-link {
         font-size: 16px;
         text-decoration: none;
-        line-height: 24px;
+        line-height: 30px;
         text-align: left;
         color: #FFFFFF;
         display: inline-block;
     }
+
     #cs-footer-269 .cs-nav-link:hover {
         text-decoration: underline;
     }
