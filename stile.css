@@ -177,7 +177,7 @@ section#main_home p{
     max-width: 900px;
 }
 
-section#main_home div#localnav_home{
+section#main_home div#localnav_home{  /*INDICATORE*/
     margin-left: 10.9%;
     margin-top: 5%;
     margin-right: -10.9%;
@@ -631,6 +631,7 @@ nav p{
 #cs-footer-269 {
     padding-top: 40px;
     padding-bottom: 30px;
+    margin: 0;
     background-color: #1E1E1E;
       
 }
@@ -760,10 +761,6 @@ nav p{
         margin-left: 3%;
     }
 
-    #cs-footer-269{
-        height: 100%;
-    }
-
     #cs-footer-269 .cs-container {
         width: auto;
         margin: auto;
@@ -840,6 +837,10 @@ nav p{
     
     #cs-footer-269 .cs-address {
          margin-bottom: 20px;
+    }
+
+    section#main_home div#localnav_home{
+        margin-top: 5%;
     }
 }
 
