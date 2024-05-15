@@ -613,4 +613,8 @@ header li span a:hover{
     header nav{
         display: none;
     }
+
+    .Immagini img{
+        width: 100%;
+    }
 }
