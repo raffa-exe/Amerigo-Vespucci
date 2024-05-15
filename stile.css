@@ -29,7 +29,6 @@ body{
     font-style: normal;
     font-weight: 400;
     max-width: 890px;
-    margin-top: 1%;
     margin-left: 10.9%;
 }
 
@@ -147,9 +146,8 @@ span#rosso{
 
 section#hero{
     width: 100%;
-    height: 100%;
+    height: 650px;
     max-height: 720px;
-    max-width: 100%;
     position: relative;
 }
 
@@ -177,7 +175,7 @@ section#main_home p{
     max-width: 900px;
 }
 
-section#main_home div#localnav_home{  /*INDICATORE*/
+section#main_home div#localnav_home{
     margin-left: 10.9%;
     margin-top: 5%;
     margin-right: -10.9%;
@@ -782,7 +780,7 @@ nav p{
         color: #FFFFFF;
     
     }
-    
+
     #cs-footer-269 .cs-nav {
         padding: 0;
         margin: 0;
@@ -835,16 +833,64 @@ nav p{
     }
     
     #cs-footer-269 .cs-address {
-         margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 
     section#main_home div#localnav_home{
         margin-top: 5%;
+    }
+
+    section#hero{
+        width: 100%;
+        height: 350px;
+        position: relative;
+    }
+
+    section#main_home{
+        width: 100%;
+        height: 700px;
+        position: relative;
     }
 }
 
 @media (max-width: 600px){
     div#localnav_home a span p{
         font-size: 60%;
+    }
+
+    section#hero{
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+
+    section#main_home{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    section#main_home div#localnav_home div#addestramento{
+        top: 0%;
+        left: 2%;
+        right: 67%;
+    }
+    
+    section#main_home div#localnav_home div#struttura{
+        top: 0%;
+        left: 35%;
+        right: 34%;
+    }
+    
+    section#main_home div#localnav_home div#storia{
+        top: 50%;
+        right: 67%;
+        left: 2%;
+    }
+    
+    section#main_home div#localnav_home div#viaggi{
+        top: 50%;
+        left: 35%;
+        right: 34%;
     }
 }
