@@ -180,19 +180,15 @@ section#main_home p{
 }
 
 section#main_home div#localnav_home{
-    max-width: 100%;
-    max-height: 100%;
-    position: relative;
-    top: 5%;
+    margin-left: 10.9%;
+    margin-top: 5%;
+    margin-right: -10.9%;
 }
 
-section#main_home div#localnav_home div#addestramento{
+section#main_home div#localnav_home div{
     max-width: 430px;
     max-height: 430px;
-    top: 0%;
     position: absolute;
-    right: 60%;
-    left: 10.9%;
 }
 
 section#main_home div#localnav_home div img{
@@ -200,29 +196,26 @@ section#main_home div#localnav_home div img{
     height: 100%;
 }
 
-section#main_home div#localnav_home div#struttura{
-    max-width: 430px;
-    max-height: 430px;
+section#main_home div#localnav_home div#addestramento{
     top: 0%;
-    position: absolute;
+    left: 10.9%;
+    right: 60%;
+}
+
+section#main_home div#localnav_home div#struttura{
+    top: 0%;
     left: 44%;
     right: 26.8%;
 }
 
 section#main_home div#localnav_home div#storia{
-    max-width: 430px;
-    max-height: 430px;
     top: 450px;
-    position: absolute;
     right: 60%;
     left: 10.9%;
 }
 
 section#main_home div#localnav_home div#viaggi{
-    max-width: 430px;
-    max-height: 430px;
     top: 450px;
-    position: absolute;
     left: 44%;
     right: 26.8%;
 }
@@ -238,7 +231,7 @@ div#localnav_home span{
     background: rgba(0, 0, 0, 0.75);
 }
 
-section#main_home span p{
+section#main_home div span p{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -510,6 +503,11 @@ header li span a:hover{
   h2{
     margin-bottom: 20px;
   }
+
+.Testo a{
+    text-decoration: underline;
+    color: #1E1E1E;
+}
 
 @media only screen and (min-width: 0px) {
     #cs-footer-269 {
