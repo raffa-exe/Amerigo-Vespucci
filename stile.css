@@ -628,95 +628,91 @@ nav p{
     font-weight: bold;
   }
 
-
-@media only screen and (min-width: 0px) {
-    #cs-footer-269 {
-        padding-top: 40px;
-        padding-bottom: 30px;
-        background-color: #1E1E1E;
+#cs-footer-269 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #1E1E1E;
       
-    }
-    #cs-footer-269 .cs-container {
-        width: 100%;
-        max-width: 1195px;
-        margin: auto;
-        display: flex;
-        column-gap: clamp(68px, calc(10%), 100px);
-    }
-    #cs-footer-269 .cs-credits {
-        margin: 0;
-        padding: 0;
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        align-self: stretch;
-        color: #FFFFFF;
-    }
+}
+#cs-footer-269 .cs-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    column-gap: clamp(68px, calc(10%), 100px);
+}
+#cs-footer-269 .cs-credits {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #FFFFFF;
+}
  
-    #cs-footer-269 .cs-text {
-        font-size: clamp(16px, 2.5vw, 16px);
-        line-height: 24px;
-        margin: 0;
-        margin-bottom: 32px;
-        max-width: 525px;
-        color: #FFFFFF;
+#cs-footer-269 .cs-text {
+    font-size: clamp(16px, 2.5vw, 16px);
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 32px;
+    max-width: 525px;
+    color: #FFFFFF;
 
-    }
-    #cs-footer-269 .cs-nav {
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-    }
+}
+#cs-footer-269 .cs-nav {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
   
-    #cs-footer-269 .cs-header {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 700;
-        margin-bottom: 14px;
-        color:#FFFFFF;
-        position: relative;
-        display: block;
-    }
+#cs-footer-269 .cs-header {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color:#FFFFFF;
+    position: relative;
+    display: block;
+}
 
-    #cs-footer-269 .cs-contact {
-        margin: 0;
-        padding: 0;
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        align-self: stretch;
-        color: #FFFFFF;
-        list-style-type: none;
-    }
+#cs-footer-269 .cs-contact {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #FFFFFF;
+    list-style-type: none;
+}
 
-    #cs-footer-269 .cs-nav-link {
-        font-size: 16px;
-        text-decoration: none;
-        line-height: 30px;
-        text-align: left;
-        color: #FFFFFF;
-        display: inline-block;
-    }
+#cs-footer-269 .cs-nav-link {
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+    display: inline-block;
+}
 
-    #cs-footer-269 .cs-nav-link:hover {
-        text-decoration: underline;
-    }
+#cs-footer-269 .cs-nav-link:hover {
+    text-decoration: underline;
+}
 
-    #cs-footer-269 .cs-contact-link {
-        font-size: 16px;
-        text-decoration: none;
-        line-height: 24px;
-        text-align: left;
-        color: #FFFFFF;
-        display: inline-block;
-    }
-    #cs-footer-269 .cs-contact-link:hover {
-        text-decoration: underline;
-    }
-    #cs-footer-269 .cs-address {
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
+#cs-footer-269 .cs-contact-link {
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    display: inline-block;
+}
+#cs-footer-269 .cs-contact-link:hover {
+    text-decoration: underline;
+}
+#cs-footer-269 .cs-address {
+    font-size: 16px;
+     margin-bottom: 20px;
 }
 
 @media (max-width: 930px){
@@ -746,6 +742,18 @@ nav p{
 
     footer a, footer p{
         font-size: 10px;
+    }
+
+    .Testo, .Testo_home, .back{
+        margin-left: 2%;
+    }
+
+    .Immagini{
+        padding-left: 2%;
+    }
+
+    .back b{
+        font-size: 15px;
     }
 }
 
