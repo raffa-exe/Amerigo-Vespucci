@@ -23,6 +23,16 @@ body{
     margin-left: 10.9%;
 }
 
+.Testo_home { 
+    color: #1E1E1E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 890px;
+    padding-top: 20px;
+    margin-left: 10.9%;
+}
+
 .noi{
     margin-bottom: 5%;
 }
