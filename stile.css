@@ -3,7 +3,7 @@ body{
     width: 100%;
     height: 100%;
     background: #F2EEEE;
-    position: relative;
+    position: absolute;
 }
 
 #marchio{
@@ -651,7 +651,7 @@ nav p{
     }
 
     .Testo, .Testo_home{
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .Testo_comandanti{
