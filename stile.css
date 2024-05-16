@@ -163,60 +163,84 @@ section#main_home{
     position: relative;
 }
 
-section#main_home h1{
-    font-size: 20px;
-    margin-left: 11%;
-    margin-top: 50px;
+section#main_struttura{
+    width: 100%;
+    height: 1900px;
+    position: relative;
 }
 
-section#main_home p{
+section#main_home p, section#main_struttura p{
     font-size: 16px;
     margin-left: 11%;
     max-width: 900px;
 }
 
-section#main_home div#localnav_home{
+section#main_home div#localnav, section#main_struttura div#localnav{
     margin-left: 10.9%;
     margin-top: 5%;
     margin-right: -10.9%;
 }
 
-section#main_home div#localnav_home div{
+section#main_home div#localnav div, section#main_struttura div#localnav div{
     max-width: 430px;
     max-height: 430px;
     position: absolute;
 }
 
-section#main_home div#localnav_home div img{
+section#main_home div#localnav div img, section#main_struttura div img{
     width: 100%;
     height: 100%;
 }
 
-section#main_home div#localnav_home div#addestramento{
+section#main_home div#localnav div#addestramento, section#main_struttura div#localnav div#navigazione{
     top: 0%;
     left: 10.9%;
     right: 60%;
 }
 
-section#main_home div#localnav_home div#struttura{
+section#main_home div#localnav div#struttura, section#main_struttura div#localnav div#scafo{
     top: 0%;
     left: 44%;
     right: 26.8%;
 }
 
-section#main_home div#localnav_home div#storia{
+section#main_home div#localnav div#storia, section#main_struttura div#localnav div#imbarcazioni{
     top: 450px;
     right: 60%;
     left: 10.9%;
 }
 
-section#main_home div#localnav_home div#viaggi{
+section#main_home div#localnav div#viaggi, section#main_struttura div#localnav div#equipaggio{
     top: 450px;
     left: 44%;
     right: 26.8%;
 }
 
-div#localnav_home span{
+section#main_struttura div#localnav div#timoni{
+    top: 900px;
+    left: 10.9%;
+    right: 60%;
+}
+
+section#main_struttura div#localnav div#comandanti{
+    top: 900px;
+    left: 44%;
+    right: 26.8%;
+}
+
+section#main_struttura div#localnav div#tecnologia{
+    top: 1350px;
+    left: 10.9%;
+    right: 60%;
+}
+
+section#main_struttura div#localnav div#cucina{
+    top: 1350px;
+    left: 44%;
+    right: 26.8%;
+}
+
+div#localnav span{
     width: 100%;
     height: 20%;
     left: 0%;
@@ -227,7 +251,7 @@ div#localnav_home span{
     background: rgba(0, 0, 0, 0.75);
 }
 
-section#main_home div span p{
+section#main_home div span p, section#main_struttura div span p{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -238,109 +262,6 @@ section#main_home div span p{
     top: 35%;
     right: 0%;
 }
-
-section#strutturahome p{
-    margin-left: 160px;
-    max-width: 900px;
-}
-
-section#strutturahome div#localnav_struttura{
-    width: 100%;
-    height: 1920px;
-    position: relative;
-    top: 50px;
-}
-
-section#strutturahome div#localnav_struttura div#navigazione{
-    max-width: 430px;
-    max-height: 430px;
-    top: 0px;
-    position: absolute;
-    left: 160px;
-}
-
-section#strutturahome div#localnav_struttura div#scafo{
-    width: 430px;
-    height: 430px;
-    top: 0px;
-    position: absolute;
-    left: 620px;
-}
-
-section#strutturahome div#localnav_struttura div#imbarcazioni{
-    width: 430px;
-    height: 430px;
-    top: 450px;
-    position: absolute;
-    left: 160px;
-}
-
-section#strutturahome div#localnav_struttura div#equipaggio{
-    width: 430px;
-    height: 430px;
-    top: 450px;
-    position: absolute;
-    left: 620px;
-}
-
-section#strutturahome div#localnav_struttura div#timoni{
-    width: 430px;
-    height: 430px;
-    top: 900px;
-    position: absolute;
-    left: 160px;
-}
-
-section#strutturahome div#localnav_struttura div#comandanti{
-    width: 430px;
-    height: 430px;
-    top: 900px;
-    position: absolute;
-    left: 620px;
-}
-
-section#strutturahome div#localnav_struttura div#tecnologia{
-    width: 430px;
-    height: 430px;
-    top: 1350px;
-    position: absolute;
-    left: 160px;
-}
-
-section#strutturahome div#localnav_struttura div#cucina{
-    width: 430px;
-    height: 430px;
-    top: 1350px;
-    position: absolute;
-    left: 620px;
-}
-
-div#navigazione span, div#scafo span, div#imbarcazioni span, div#equipaggio span, div#timoni span, div#comandanti span, div#tecnologia span, div#cucina span {
-    width: 430px;
-    height: 120px;
-    left: 0px;
-    top: 280px;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.75);
-}
-
-section#strutturahome span h2{
-    width: 430px;
-    height: 130px;
-    left: 0px;
-    top: 35px;
-    position: absolute;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: "Inria Serif";
-    font-size: 32px;
-    font-weight: 500;
-    text-decoration: underline;
-    line-height: 150%;
-    word-wrap: break-word;
-    color: #FFF;
-}
-
 
 a.Consulta{
     color:#1E1E1E;
@@ -731,8 +652,8 @@ nav p{
         width: 100%;
     }
 
-    div#localnav_home a span p{
-        font-size: 100%;
+    div#localnav a span p{
+        font-size: 90%;
     }
 
     .Testo, .Testo_home{
@@ -837,7 +758,7 @@ nav p{
         margin-bottom: 20px;
     }
 
-    section#main_home div#localnav_home{
+    section#main_home div#localnav, section#main_struttura div#localnav{
         margin-top: 5%;
     }
 
@@ -847,15 +768,21 @@ nav p{
         position: relative;
     }
 
-    section#main_home{
+    section#main_home{ /*INDICATORE*/
         width: 100%;
         height: 700px;
+        position: relative;
+    }
+
+    section#main_struttura{ /*INDICATORE*/
+        width: 100%;
+        height: 1700px;
         position: relative;
     }
 }
 
 @media (max-width: 600px){
-    div#localnav_home a span p{
+    div#localnav a span p{
         font-size: 60%;
     }
 
@@ -871,26 +798,66 @@ nav p{
         position: relative;
     }
 
-    section#main_home div#localnav_home div#addestramento{
+    section#main_struttura{
+        width: 100%;
+        height: 800px;
+        position: relative;
+    }
+
+    section#main_home div#localnav div#addestramento, section#main_struttura div#localnav div#navigazione{
         top: 0%;
         left: 2%;
         right: 67%;
     }
     
-    section#main_home div#localnav_home div#struttura{
+    section#main_home div#localnav div#struttura, section#main_struttura div#localnav div#scafo{
         top: 0%;
         left: 35%;
         right: 34%;
     }
     
-    section#main_home div#localnav_home div#storia{
+    section#main_home div#localnav div#storia{
         top: 50%;
         right: 67%;
         left: 2%;
     }
-    
-    section#main_home div#localnav_home div#viaggi{
+
+    section#main_struttura div#localnav div#imbarcazioni{
+        top: 18%;
+        right: 67%;
+        left: 2%;
+    }
+    section#main_home div#localnav div#viaggi{
         top: 50%;
+        left: 35%;
+        right: 34%;
+    }
+
+    section#main_struttura div#localnav div#equipaggio{
+        top: 18%;
+        left: 35%;
+        right: 34%;
+    }
+    section#main_struttura div#localnav div#timoni{
+        top: 36%;
+        right: 67%;
+        left: 2%;
+    }
+
+    section#main_struttura div#localnav div#comandanti{
+        top: 36%;
+        left: 35%;
+        right: 34%;
+    }
+
+    section#main_struttura div#localnav div#tecnologia{
+        top: 54%;
+        right: 67%;
+        left: 2%;
+    }
+
+    section#main_struttura div#localnav div#cucina{
+        top: 54%;
         left: 35%;
         right: 34%;
     }
