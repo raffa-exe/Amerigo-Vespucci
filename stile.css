@@ -52,7 +52,7 @@ body{
     height: 30px;
 }
 
-.columnbig {            /*INDICATORE*/
+.columnbig {
     width: 40%;
     padding: 0px;
     display: inline-block;
@@ -776,7 +776,7 @@ nav p{
 
     .sidebar {
         width: 100px;
-      }
+    }
 
     .sidebar li span a{
         font-size: 10px;
