@@ -861,4 +861,9 @@ nav p{
         left: 35%;
         right: 34%;
     }
+
+    .Testo, .Testo_home, .back{
+        margin-left: 2%;
+        width: 350px;
+    }
 }
