@@ -372,6 +372,7 @@ header li span a:hover{
     /*overflow-x: hidden;
     padding: 8px 0;*/
     list-style-type: none;
+    background: #F2EEEE;
   }
   
   .sidebar a {
