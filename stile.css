@@ -648,7 +648,7 @@ nav p{
     }
 
     div#localnav a span p{
-        font-size: 90%;
+        font-size: 110%;
     }
     
     .Testo, .Testo_home{
@@ -797,7 +797,7 @@ nav p{
 
 @media (max-width: 600px){
     div#localnav a span p{
-        font-size: 60%;
+        font-size: 100%;
     }
 
     section#hero{
