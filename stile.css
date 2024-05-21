@@ -6,9 +6,10 @@ body{
     position: absolute;
 }
 
-#marchio{
-    margin-top: 60px;
-    margin-left: 20px;
+#logo{
+    margin-top: 4%;
+    margin-left: 10.9%;
+    position: absolute;
 }
 
 #menuToggle{
@@ -822,6 +823,11 @@ nav p{
 
     section#hero{
         max-height: 66%;
+    }
+
+    #logo{
+        margin-left: 2%;
+        margin-top: 2%;
     }
 }
 
