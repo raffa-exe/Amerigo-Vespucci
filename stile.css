@@ -717,9 +717,9 @@ nav p{
         display: block;
         position: absolute;
         top: 20px;
-        right: -120px;
+        right: -390px;
         height:40px;
-        width:170px;
+        width:100%;
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
@@ -744,7 +744,6 @@ nav p{
         height: 32px;
         position: absolute;
         top: -7px;
-        left: -5px;
         cursor: pointer;
         opacity: 0;
         z-index: 2;
