@@ -297,7 +297,7 @@ header{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    width: 100vw;
+    width: 100%;
     height: 140px;
     border-bottom: solid 1px rgba(16, 16, 16, 0.1);
     background-color: #1E1E1E;
