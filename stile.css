@@ -725,6 +725,10 @@ nav p{
     img#marchio{
         margin-top: 20px;
     }
+
+    section#hero{
+        height: 62%;
+    }
 }
 
 @media (max-width: 800px){
@@ -841,10 +845,6 @@ nav p{
 }
 
 @media (max-width: 600px){
-
-    section#hero{
-        max-height: 66%;
-    }
     
     div#localnav a span p{
         font-size: 100%;
@@ -857,7 +857,7 @@ nav p{
     }
 
     section#hero{
-        max-height: 34%;
+        height: 32%;
     }
 
     section#main_struttura{
@@ -939,7 +939,7 @@ nav p{
         opacity: 100;
         position: absolute;
         left: 215px;
-        top: 16%;
+        top: 15.8%;
         text-decoration: underline;
         font-size: 16px;
     }
