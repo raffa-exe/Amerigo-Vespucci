@@ -938,6 +938,7 @@ nav p{
 
     #menuTendina{
         opacity: 100;
+        width: 100%;
         position: absolute;
         left: 215px;
         top: 15.8%;
@@ -952,7 +953,7 @@ nav p{
     #menuTendina input
     {
         display: block;
-        width: 110px;
+        width: 120px;
         height: 32px;
         position: absolute;
         top: -7px;
@@ -965,21 +966,20 @@ nav p{
     #tendina
     {
         position: absolute;
-        background: #F2EEEE;
+        background: #1E1E1E;
         list-style-type: none;
-        width: 120px;
+        width: 150px;
         padding-top: 10px;
+        padding-left: 5%;
     }
 
     #tendina li{
-        color: #1E1E1E;
+        color: #F2EEEE;
         height: 30px;
     }
 
     #tendina li:hover{
         text-decoration: underline;
-        background: #1E1E1E;
-        color: #F2EEEE;
     }
 
     #menuTendina input:checked ~ span
