@@ -8,7 +8,7 @@ body{
 
 #logo{
     margin-top: 4%;
-    margin-left: 10.9%;
+    left: 10.9%;
     position: absolute;
 }
 
@@ -360,9 +360,10 @@ header .logo img{
 
 header nav{
     float: right;
+    position: absolute;
     height: 100%;
-    margin-top: -80px;
-    margin-right: 360px;
+    top: -35%;
+    right: 20%;
     font-size: 18px;
 }
 
@@ -553,8 +554,16 @@ nav p{
 }
 
 @media (max-width: 930px){
-    header div.nav_principale{
-        display: none;
+    header nav{
+        font-size: 16px;
+        top: -40%;
+        right: 2%;
+    }
+
+    #logo{
+        margin-top: 1%;
+        left: 2%;
+        position: absolute;
     }
 
     .Immagini img{
@@ -712,15 +721,20 @@ nav p{
     img#marchio{
         margin-top: 20px;
     }
+}
+
+@media (max-width: 800px){
+    header nav{
+        display: none;
+    }
 
     #menuToggle
     {
         display: block;
         position: absolute;
-        top: 20px;
-        right: -390px;
+        top: 45px;
+        right: 10px;
         height:40px;
-        width:100%;
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
@@ -798,8 +812,8 @@ nav p{
     #menu
     {
         position: absolute;
-        width: 200px;
-        margin: -100px 0 0 -250px;
+        width: 150px;
+        margin: -100px 0 0 -205px;
         padding: 50px;
         padding-top: 125px;
         background: #1E1E1E;
@@ -820,18 +834,14 @@ nav p{
     {
         transform: none;
     }
+}
+
+@media (max-width: 600px){
 
     section#hero{
         max-height: 66%;
     }
-
-    #logo{
-        margin-left: 2%;
-        margin-top: 2%;
-    }
-}
-
-@media (max-width: 600px){
+    
     div#localnav a span p{
         font-size: 100%;
     }
