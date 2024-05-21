@@ -27,6 +27,10 @@ body{
     margin-left: 10.9%;
 }
 
+.Testo p{
+    margin-bottom: 20px;
+}
+
 .Testo_comandanti { 
     color: #1E1E1E;
     font-size: 16px;
