@@ -5,6 +5,17 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function myFunction() {
+                var checkBox = document.getElementById("myCheck");
+                var text = document.getElementById("tendina");
+                if (checkBox.checked == true){
+                    text.style.display = "block";
+                }else{
+                    text.style.display = "none";
+                }
+            }
+        </script>
     </head>
     <body>
         <header>
@@ -52,6 +63,19 @@
     <li><span class="sidenoncorrente"><a href="tecnologia.html">> Tecnologia</a></span></li>
     <li><span class="sidecorrente"><a href="cucina.html">> Cucina</a></span></li>
 </div>
+
+<div id="menuTendina">
+    Cucina <img src="icons/back.png"> <input type="checkbox" id="myCheck" onclick="myFunction()">
+    <ul id="tendina">
+      <a href="navigazione.html"><li>> Navigazione</li></a>
+      <a href="scafo.html"><li>> Scafo</li></a>
+      <a href="imbarcazioni.html"><li>> Imbarcazioni</li></a>
+      <a href="equipaggio.html"><li>> Equipaggio</li></a>
+      <a href="timone.html"><li>> Timoni</li></a>
+      <a href="comandanti.html"><li>> Comandanti</li></a>
+      <a href="tecnologia.html"><li>> Tecnologia</li></a>
+    </ul>
+  </div>
 <div class="back">
     <a href="struttura.html">
         <img src="icons/back.png">
