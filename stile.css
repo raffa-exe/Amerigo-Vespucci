@@ -18,7 +18,19 @@ body{
     font-weight: 400;
     line-height: 150%;
     letter-spacing: -0.176px;
-    max-width: 890px;
+    max-width: 550px;
+    padding-top: 20px;
+    margin-left: 10.9%;
+}
+
+.Testo_comandanti { 
+    color: #1E1E1E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.176px;
+    max-width: 800px;
     padding-top: 20px;
     margin-left: 10.9%;
 }
@@ -28,7 +40,7 @@ body{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    max-width: 890px;
+    max-width: 550px;
     margin-left: 10.9%;
 }
 
@@ -94,7 +106,7 @@ padding: 0;
     letter-spacing: -0.176px;
 }
 
-header h1#nome{
+header p#nome{
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 700;
