@@ -857,7 +857,8 @@ nav p{
     }
 
     section#hero{
-        height: 32%;
+        height: 35%;
+        margin-bottom: 2%;
     }
 
     section#main_struttura{
