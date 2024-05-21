@@ -5,6 +5,21 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+          function myFunction() {
+              // Get the checkbox
+              var checkBox = document.getElementById("myCheck");
+              // Get the output text
+              var text = document.getElementById("tendina");
+
+              // If the checkbox is checked, display the output text
+              if (checkBox.checked == true){
+                  text.style.display = "block";
+              }else{
+                  text.style.display = "none";
+              }
+          }
+      </script>
     </head>
     <body>
       <header>
@@ -59,6 +74,19 @@
         <img src="icons/back.png">
         <b>LA VESPUCCI</b>
     </a>
+</div>
+
+<div id="menuTendina">
+  Comandanti <img src="icons/back.png"> <input type="checkbox" id="myCheck" onclick="myFunction()">
+  <ul id="tendina">
+    <a href="navigazione.html"><li>> Navigazione</li></a>
+    <a href="scafo.html"><li>> Scafo</li></a>
+    <a href="imbarcazioni.html"><li>> Imbarcazioni</li></a>
+    <a href="equipaggio.html"><li>> Equipaggio</li></a>
+    <a href="timone.html"><li>> Timoni</li></a>
+    <a href="tecnologia.html"><li>> Tecnologia</li></a>
+    <a href="cucina.html"><li>> Cucina</li></a>
+  </ul>
 </div>
 <div class="Testo_comandanti">
             <h1>I COMANDANTI</h1><br>

@@ -553,6 +553,10 @@ nav p{
     margin-left: 2%;
 }
 
+#menuTendina{
+    opacity: 0;
+}
+
 @media (max-width: 930px){
     header nav{
         font-size: 16px;
@@ -929,5 +933,63 @@ nav p{
 
     .sidebar{
         display: none;
+    }
+
+    #menuTendina{
+        opacity: 100;
+        position: absolute;
+        left: 215px;
+        top: 16%;
+        text-decoration: underline;
+        font-size: 16px;
+    }
+    
+    #menuTendina img{
+        rotate: 270deg;
+    }
+
+    #menuTendina input
+    {
+        display: block;
+        width: 110px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+        -webkit-touch-callout: none;
+    }
+
+    #tendina
+    {
+        position: absolute;
+        background: #F2EEEE;
+        list-style-type: none;
+        width: 120px;
+        padding-top: 10px;
+    }
+
+    #tendina li{
+        color: #1E1E1E;
+        height: 30px;
+    }
+
+    #tendina li:hover{
+        text-decoration: underline;
+        background: #1E1E1E;
+        color: #F2EEEE;
+    }
+
+    #menuTendina input:checked ~ span
+    {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #FFFFFF;
+    }
+
+    #menuTendina input:checked ~ ul
+    {
+        transform: none;
     }
 }
