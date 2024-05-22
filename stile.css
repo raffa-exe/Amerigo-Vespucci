@@ -968,14 +968,14 @@ nav p{
         position: absolute;
         background: #1E1E1E;
         list-style-type: none;
-        width: 150px;
+        width: 120px;
         padding-top: 10px;
-        padding-left: 5%;
+        padding-left: 3%;
     }
 
     #tendina li{
         color: #F2EEEE;
-        height: 30px;
+        height: 38px;
     }
 
     #tendina li:hover{
