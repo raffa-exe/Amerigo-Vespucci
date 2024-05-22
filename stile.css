@@ -185,13 +185,7 @@ section#hero img{
 }
 
 section#main_struttura{
-    width: 100%;
-    height: 1900px;
-    position: relative;
-}
-
-#localnav p{
-    font-size: 16px;
+   margin-bottom: 10%;
 }
 
 /*section#main_home div#localnav, section#main_struttura div#localnav{
@@ -251,13 +245,23 @@ section#main_struttura div#localnav div#cucina{
     top: 1350px;
     left: 44%;
     right: 26.8%;
+}
+
+div.grid-item span{
+    width: 26.7%;
+    height: 15%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.75);
+    margin-left: -26.7%;
+    margin-top: 19.7%;
 }*/
 
 div.grid-item span{
-    max-width: 100%;
-    height: 10%;
+    width: 26.7%;
+    height: 15%;
     position: absolute;
     background: rgba(0, 0, 0, 0.75);
+    margin-top: 19.7%;
 }
 
 #localnav div span p{
@@ -272,15 +276,13 @@ div.grid-item span{
 #localnav {
     display: grid;
     grid-template-columns: 30% 30%;
-    padding: 10px;
-    margin-left: 9%;
-    position: relative;
+    margin-left: 10.9%;
+    gap: 2%;
+    margin-bottom: 5%;
 }
 
 .grid-item {
-    padding: 20px;
-    font-size: 20px;
-    text-align: center;
+    font-size: 110%;
 }
 
 a.Consulta{
@@ -551,6 +553,19 @@ header li span a:hover{
 }
 
 @media (max-width: 930px){
+
+    div.grid-item span{
+        width: 29.4%;
+        height: 10%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.75);
+        margin-top: 21.6%;
+    }
+
+    #localnav {
+        margin-left: 2%;
+    }
+
     header nav{
         font-size: 16px;
         top: -40%;
@@ -691,14 +706,13 @@ header li span a:hover{
 
     section#main_home{
         width: 100%;
-        height: 700px;
+        height: 550px;
         position: relative;
     }
 
     section#main_struttura{
         width: 100%;
-        height: 1700px;
-        position: relative;
+        height: 1100px;
     }
 
     .sidebar {
@@ -838,6 +852,20 @@ header li span a:hover{
 }
 
 @media (max-width: 600px){
+
+    div.grid-item span{
+        width: 46.2%;
+        height: 10%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.75);
+        margin-top: 32.5%;
+    }
+
+    #localnav {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        margin-right: 2%;
+    }
     
     div#localnav a span p{
         font-size: 100%;
@@ -845,7 +873,7 @@ header li span a:hover{
 
     section#main_home{
         width: 100%;
-        height: 450px;
+        height: 600px;
         position: relative;
     }
 
@@ -854,13 +882,20 @@ header li span a:hover{
         margin-bottom: 2%;
     }
 
-    /*section#main_struttura{
+    section#main_struttura{
         width: 100%;
-        height: 1100px;
-        position: relative;
+        height: 900px;
     }
 
-    section#main_home div#localnav div#addestramento, section#main_struttura div#localnav div#navigazione{
+    section#main_struttura div.grid-item span{
+        width: 46.2%;
+        height: 10%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.75);
+        margin-top: 31%;
+    }
+
+   /*section#main_home div#localnav div#addestramento, section#main_struttura div#localnav div#navigazione{
         top: 0%;
         left: 2%;
         right: 52%;
