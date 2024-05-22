@@ -202,16 +202,15 @@ section#main_home p, section#main_struttura p{
     max-width: 900px;
 }
 
-section#main_home div#localnav, section#main_struttura div#localnav{
+/*section#main_home div#localnav, section#main_struttura div#localnav{
     margin-left: 10.9%;
     margin-top: 5%;
     margin-right: -10.9%;
-}
+}*/
 
 section#main_home div#localnav div, section#main_struttura div#localnav div{
     max-width: 430px;
     max-height: 430px;
-    position: absolute;
 }
 
 section#main_home div#localnav div img, section#main_struttura div img{
@@ -219,7 +218,7 @@ section#main_home div#localnav div img, section#main_struttura div img{
     height: 100%;
 }
 
-section#main_home div#localnav div#addestramento, section#main_struttura div#localnav div#navigazione{
+/*section#main_home div#localnav div#addestramento, section#main_struttura div#localnav div#navigazione{
     top: 0%;
     left: 10.9%;
     right: 60%;
@@ -265,7 +264,7 @@ section#main_struttura div#localnav div#cucina{
     top: 1350px;
     left: 44%;
     right: 26.8%;
-}
+}*/
 
 div#localnav span{
     width: 100%;
@@ -274,11 +273,11 @@ div#localnav span{
     right: 0%;
     top: 80%;
     bottom: 0%;
-    position: absolute;
+    position: relative;
     background: rgba(0, 0, 0, 0.75);
 }
 
-section#main_home div span p, section#main_struttura div span p{
+#localnav div span p{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -288,6 +287,20 @@ section#main_home div span p, section#main_struttura div span p{
     text-decoration: underline;
     top: 35%;
     right: 0%;
+}
+
+#localnav {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    padding: 10px;
+    margin-left: 9%;
+    width: 100%;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
 }
 
 a.Consulta{
