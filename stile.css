@@ -880,4 +880,8 @@ header li span a:hover{
     {
         transform: none;
     }
+
+    .Testo_home h1{
+        width: 400px;
+    }
 }
