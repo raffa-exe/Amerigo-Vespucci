@@ -394,35 +394,35 @@ header li span a:hover{
     padding-bottom: 30px;
     margin: 0;
     background-color: #1E1E1E;
-      
 }
 
 #cs-footer-269 .cs-container {
     width: auto;
     margin: auto;
     margin-left: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 #cs-footer-269 .cs-credits {
     padding: 0;
     width: 600px;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
     color: #FFFFFF;
 }
  
 #cs-footer-269 .cs-text {
     line-height: 24px;
-    margin: 0;
+    /*margin: 0;
     margin-bottom: 32px;
-    max-width: 525px;
+    max-width: 525px;*/
     color: #FFFFFF;
-
 }
 
 #cs-footer-269 .cs-nav {
-    padding: 0;
-    margin: 0;
+    /*padding: 0;
+    margin: 0;*/
     list-style-type: none;
 }
   
@@ -430,18 +430,17 @@ header li span a:hover{
     font-size: 16px;
     line-height: 24px;
     font-weight: 700;
-    margin-bottom: 14px;
+    /*margin-bottom: 14px;*/
     color:#FFFFFF;
     position: relative;
-    display: block;
 }
 
 #cs-footer-269 .cs-contact {
-    margin-top: 20px;
-    padding: 0;
+    /*margin-top: 20px;
+    padding: 0;*/
     width: auto;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
     align-self: stretch;
     color: #FFFFFF;
     list-style-type: none;
@@ -471,9 +470,9 @@ header li span a:hover{
     text-decoration: underline;
 }
 
-#cs-footer-269 .cs-address {
-     margin-bottom: 20px;
-}
+/*#cs-footer-269 .cs-address {
+    margin-bottom: 20px;
+}*/
 
 .Testo ul li{
     margin-left: 2%;
@@ -880,4 +879,9 @@ header li span a:hover{
     .Testo_home h1{
         width: 400px;
     }
+
+    #cs-footer-269 .cs-container {
+        grid-template-columns: auto;
+    }
+    
 }
