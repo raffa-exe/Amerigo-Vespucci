@@ -581,7 +581,8 @@ header li span a:hover{
     }
 
     div#localnav a span p{
-        font-size: 110%;
+        font-size: 90%;
+        padding: 6%;
     }
     
     .Testo, .Testo_home{
@@ -690,7 +691,7 @@ header li span a:hover{
         text-align: left;
         color: #FFFFFF;
     }
-    
+
     #cs-footer-269 .cs-contact-link:hover {
         text-decoration: underline;
     }
