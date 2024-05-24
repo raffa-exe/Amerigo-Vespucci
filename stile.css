@@ -268,7 +268,7 @@ div.grid-item span{
     text-align: center;
     position: relative;
     color: #FFFFFF;
-    font-size: 140%;
+    font-size: 135%;
     text-decoration: underline;
     padding: 6%;
 }
@@ -556,9 +556,7 @@ header li span a:hover{
 
     div.grid-item span{
         width: 29.4%;
-        height: 10%;
-        position: absolute;
-        background: rgba(0, 0, 0, 0.75);
+        max-height: 50px;
         margin-top: 21.6%;
     }
 
@@ -692,6 +690,7 @@ header li span a:hover{
         text-align: left;
         color: #FFFFFF;
     }
+    
     #cs-footer-269 .cs-contact-link:hover {
         text-decoration: underline;
     }
