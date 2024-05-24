@@ -869,6 +869,7 @@ header li span a:hover{
     
     div#localnav a span p{
         font-size: 100%;
+        padding: 8%;
     }
 
     section#main_home{
