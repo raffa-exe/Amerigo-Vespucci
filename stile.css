@@ -482,7 +482,6 @@ header li span a:hover{
 }
  
 #cs-footer-269 .cs-text {
-    font-size: clamp(16px, 2.5vw, 16px);
     line-height: 24px;
     margin: 0;
     margin-bottom: 32px;
@@ -490,6 +489,7 @@ header li span a:hover{
     color: #FFFFFF;
 
 }
+
 #cs-footer-269 .cs-nav {
     padding: 0;
     margin: 0;
@@ -536,6 +536,7 @@ header li span a:hover{
     text-align: left;
     color: #FFFFFF;
 }
+
 #cs-footer-269 .cs-contact-link:hover {
     text-decoration: underline;
 }
