@@ -779,6 +779,10 @@ header li span a:hover{
     {
         transform: none;
     }
+
+    #menuToggle input:not(:checked) ~ ul{
+        display: none;
+    }
 }
 
 @media (max-width: 600px){
@@ -868,16 +872,13 @@ header li span a:hover{
         text-decoration: underline;
     }
 
-    #menuTendina input:checked ~ span
-    {
-        opacity: 1;
-        transform: rotate(45deg) translate(-2px, -1px);
-        background: #FFFFFF;
-    }
-
     #menuTendina input:checked ~ ul
     {
         transform: none;
+    }
+
+    #menuTendina input:not(:checked) ~ ul{
+        display: none;
     }
 
     .Testo_home h1{
