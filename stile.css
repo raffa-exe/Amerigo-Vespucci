@@ -336,53 +336,53 @@ header li span a:hover{
     width: 180px;
     position: fixed;
     top: 30%;
-    right: 0;
+    right: 10%;
     overflow-x: hidden;
     padding: 8px 0;
     list-style-type: none;
     background: #F2EEEE;
-  }
+}
   
-  .sidebar a {
+.sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 16px;
     color: #1E1E1E;
     display: block;
     list-style-type: none;
-  }
+}
   
-  .sidebar a:hover {
+.sidebar a:hover {
     color: #FFFFFF;
     background-color: #1E1E1E;
-  }
+}
 
-  .sidebar li span.sidecorrente a{
+.sidebar li span.sidecorrente a{
     background-color: #1E1E1E;
     color: #FFFFFF;
-  }
+}
 
-  .sidebar nav li span.sidenoncorrente a{
+.sidebar nav li span.sidenoncorrente a{
     color: #F2EEEE;
-  }
+}
 
-  .back{
+.back{
     margin-left: 10.9%;
     margin-top: 2%;
-  }
+}
 
-  .back a{
+.back a{
     color: #1E1E1E;
     font-size: 16px;
-  }
+}
 
-  .back a b{
+.back a b{
     text-decoration: underline;
-  }
+}
 
-  h2{
+h2{
     margin-bottom: 20px;
-  }
+}
 
 .Testo a{
     text-decoration: underline;
@@ -483,7 +483,7 @@ header li span a:hover{
 }
 
 #menuTendina{
-    opacity: 0;
+    display: none;
 }
 
 @media (max-width: 930px){
@@ -828,7 +828,7 @@ header li span a:hover{
 
     #menuTendina{
         opacity: 100;
-        width: 100%;
+        max-width: 100%;
         position: absolute;
         left: 215px;
         top: 16%;
@@ -860,7 +860,7 @@ header li span a:hover{
         list-style-type: none;
         width: 140px;
         padding-top: 10px;
-        padding-left: 3%;
+        padding-left: 15%;
     }
 
     #tendina li{
