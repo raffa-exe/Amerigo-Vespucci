@@ -759,13 +759,12 @@ h2{
     #menu
     {
         position: absolute;
-        width: 150px;
+        max-width: 150px;
         margin: -100px 0 0 -205px;
         padding: 50px;
         padding-top: 125px;
         background: #1E1E1E;
         list-style-type: none;
-        -webkit-font-smoothing: antialiased;
         transform-origin: 0% 0%;
     }
 
@@ -883,6 +882,7 @@ h2{
     }
 
     .Testo_home h1{
+        width: 400px;
         margin-right: 2%;
     }
 
