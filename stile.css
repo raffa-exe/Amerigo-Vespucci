@@ -811,7 +811,7 @@ h2{
         max-width: 100%;
         position: absolute;
         top: 17%;
-        right: 13%;
+        left: 65%;
         text-decoration: underline;
         font-size: 16px;
     }
