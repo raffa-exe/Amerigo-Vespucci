@@ -373,10 +373,7 @@ header li span a:hover{
 
 .back a{
     color: #1E1E1E;
-    font-size: 16px;
-}
-
-.back a b{
+    font-size: 14px;
     text-decoration: underline;
 }
 
@@ -411,22 +408,15 @@ h2{
 #cs-footer-269 .cs-credits {
     padding: 0;
     width: 600px;
-    /*display: flex;
-    flex-direction: column;*/
     color: #FFFFFF;
 }
  
 #cs-footer-269 .cs-text {
     line-height: 24px;
-    /*margin: 0;
-    margin-bottom: 32px;
-    max-width: 525px;*/
     color: #FFFFFF;
 }
 
 #cs-footer-269 .cs-nav {
-    /*padding: 0;
-    margin: 0;*/
     list-style-type: none;
 }
   
@@ -434,17 +424,12 @@ h2{
     font-size: 16px;
     line-height: 24px;
     font-weight: 700;
-    /*margin-bottom: 14px;*/
     color:#FFFFFF;
     position: relative;
 }
 
 #cs-footer-269 .cs-contact {
-    /*margin-top: 20px;
-    padding: 0;*/
     width: auto;
-    /*display: flex;
-    flex-direction: column;*/
     align-self: stretch;
     color: #FFFFFF;
     list-style-type: none;
@@ -473,10 +458,6 @@ h2{
 #cs-footer-269 .cs-contact-link:hover {
     text-decoration: underline;
 }
-
-/*#cs-footer-269 .cs-address {
-    margin-bottom: 20px;
-}*/
 
 .Testo ul li{
     margin-left: 2%;
@@ -825,12 +806,12 @@ h2{
     }
 
     #menuTendina{
-        opacity: 100;
+        opacity: 1;
         width: auto;
         max-width: 100%;
         position: absolute;
-        left: 215px;
-        top: 16%;
+        top: 17%;
+        right: 13%;
         text-decoration: underline;
         font-size: 16px;
     }
