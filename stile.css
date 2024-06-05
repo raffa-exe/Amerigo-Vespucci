@@ -7,7 +7,7 @@ body{
 }
 
 #logo{
-    margin-top: 4%;
+    margin-top: 60px;
     left: 10.9%;
     position: absolute;
 }
@@ -98,24 +98,24 @@ body{
 }
 
 ul.a {
-list-style-type: disc;
-list-style-position: inside;
-margin: 0;
-padding: 0;
+    list-style-type: disc;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
 }
 
 ul.b {
-list-style-type: none;
-list-style-position: inside;
-margin: 0;
-padding: 0;
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
 }
 
 ol.c {
-list-style-type: decimal;
-list-style-position: inside;
-margin: 0;
-padding: 0;
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
 }
 
 .h1 {
@@ -270,53 +270,29 @@ header{
     background-color: #1E1E1E;
 }
 
-header .inner{
-    max-width: 1260px;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
-}
-
 header .logo{
     display: table;
     height: 100%;
     float: left;
 }
 
-header .logo div{
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-}
-
 header .logo img{
     height: 78px;
     margin-top: 5px;
+    display: block;
 }
 
 header nav{
-    float: right;
-    position: absolute;
-    height: 100%;
-    top: -35%;
+    display: flex;
+    gap: 9%;
     right: 20%;
+    top: 14%;
     font-size: 18px;
+    position: absolute;
 }
 
 header nav li{
-    display: table;
-    height: 100%;
-    float: left;
-    margin-right: 30px;
-}
-
-header nav li:last-of-type{
-    margin-right: 0;
-}
-
-header nav span {
-    display: table-cell;
-    vertical-align: middle;
+    list-style: none;
 }
 
 header nav li span.noncorrente a{
@@ -469,7 +445,25 @@ h2{
     height: 0;
 }
 
+@media (max-width: 1100px){
+    header nav{
+        font-size: 16px;
+        top: 9%;
+        right: 20%;
+    }
+
+    #logo{
+        margin-top: 30px;
+        left: 2%;
+    }
+}
+
 @media (max-width: 930px){
+
+    #logo{
+        margin-top: 5px;
+        left: 2%;
+    }
 
     div.grid-item span{
         width: 29.4%;
@@ -479,18 +473,6 @@ h2{
 
     #localnav {
         margin-left: 2%;
-    }
-
-    header nav{
-        font-size: 16px;
-        top: -40%;
-        right: 2%;
-    }
-
-    #logo{
-        margin-top: 1%;
-        left: 2%;
-        position: absolute;
     }
 
     .Immagini img{
