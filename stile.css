@@ -7,7 +7,7 @@ body{
 }
 
 #logo{
-    margin-top: 60px;
+    bottom: 83%;
     left: 10.9%;
     position: absolute;
 }
@@ -289,7 +289,7 @@ header nav{
     display: flex;
     gap: 9%;
     right: 20%;
-    top: 14%;
+    bottom: 84%;
     font-size: 18px;
     position: absolute;
 }
@@ -467,7 +467,7 @@ h2{
     }
 
     #logo{
-        margin-top: 5px;
+        bottom: 87%;
         left: 2%;
     }
 
