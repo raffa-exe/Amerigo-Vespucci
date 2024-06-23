@@ -755,7 +755,7 @@ h2{
 
 @media (max-width: 600px){
 
-    .back a{
+    .back, .back a{
         font-size: 10px;
     }
 
