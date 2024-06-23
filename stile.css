@@ -755,6 +755,10 @@ h2{
 
 @media (max-width: 600px){
 
+    .back a{
+        font-size: 12px;
+    }
+
     div.grid-item span{
         width: 46.2%;
         height: 10%;
