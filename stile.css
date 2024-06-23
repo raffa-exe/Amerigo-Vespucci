@@ -759,6 +759,10 @@ h2{
         font-size: 10px;
     }
 
+    .back b{
+        font-size: 12px;
+    }
+
     div.grid-item span{
         width: 46.2%;
         height: 10%;
